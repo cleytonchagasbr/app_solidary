@@ -1,4 +1,2 @@
-# React Components / Components React 
+# Typescript e React JS
 
-- form/login
-- button
