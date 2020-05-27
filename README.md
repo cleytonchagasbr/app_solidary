@@ -1,2 +1,2 @@
-# Typescript e React JS
+# Solidary - Projeto Open Source
 
