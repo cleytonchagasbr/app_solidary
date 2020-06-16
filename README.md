@@ -2,8 +2,11 @@
   <img width="360" height="200" src="https://github.com/cleytonchagasbr/imgs/blob/master/logo_solidary.svg">
 </p>
 
+<h4>
+Motivo:
+</h4>
 <p>
-  App para encontrar pontos de coleta de alimentos para doação, sem fins lucrativos.
+  App para encontrar pontos de coleta de alimentos para doação, existe a necessidade de saber onde doar, sem fins lucrativos. 
 </p>
 
 <p>
