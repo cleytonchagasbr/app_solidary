@@ -1,6 +1,6 @@
 # Solidary 
 ### App para encontrar pontos de coleta de alimentos para doação
-:exclamation: ### Leve esse projeto para sua cidade 
+:exclamation: Leve esse projeto para sua cidade 
 ##### Open Source :heart:
 
 <p align="center">
