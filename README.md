@@ -10,7 +10,7 @@ Motivo:
 </p>
 
 <p>
-  Leve esse projeto para sua cidade
+  Leve esse projeto para sua cidade :earth_americas:
 </p>
 Open Source :heart:
 
