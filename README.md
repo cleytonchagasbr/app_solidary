@@ -2,14 +2,14 @@
   <img width="360" height="200" src="https://github.com/cleytonchagasbr/imgs/blob/master/logo_solidary.svg">
 </p>
 
-<h2>
+<p>
   App para encontrar pontos de coleta de alimentos para doação, sem fins lucrativos.
-</h2>
+</p>
 
 <p>
   Leve esse projeto para sua cidade
 </p>
-##### Open Source :heart:
+Open Source :heart:
 
 
 <p align="center">
