@@ -4,9 +4,7 @@ import { Formik } from 'formik';
 import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 
 export default function Cadastro({ navigation }) {
-
     return (
-    
   <Formik
     initialValues={{ cep: '', email: '', nome: '', whatsapp: '', instagram: '' }}
     onSubmit={values => 
