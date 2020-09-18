@@ -56,6 +56,7 @@ export default function Welcome( { navigation } ) {
 
       <View style={styles.info}>
           <Text style={styles.infoTitlte}>Sem fins lucrativos</Text>
+          <Text style={styles.infoTitlte}>Apoie o projeto!</Text>
       </View>
     </View>
   );
@@ -113,14 +114,16 @@ const styles = StyleSheet.create({
       borderWidth: 1,
       borderColor: "#FFF",
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
   },
   icons: {
     marginRight: 7
   },
   encontrar: {
     fontSize: 25,
-    color: '#fff'
+    color: '#fff',
+    fontWeight: 'bold'
+    
   },
   cadastrar: {
     fontSize: 25,
@@ -128,6 +131,7 @@ const styles = StyleSheet.create({
   },
   info: {
     paddingTop: 50,
+    alignItems: "center"
   },
   infoTitlte: {
     color: '#FFF'
