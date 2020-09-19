@@ -3,15 +3,15 @@ import { TextInput, View, StyleSheet, Text, Button, Alert, TouchableOpacity } fr
 import { Formik } from 'formik';
 import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 
+const postCadastro = (json) => {
+    console.log(json.cep)
+}
+
 export default function Cadastro({ navigation }) {
     return (
   <Formik
     initialValues={{ cep: '', email: '', nome: '', whatsapp: '', instagram: '' }}
-    onSubmit={values => 
-        console.log(values)
-    
-    }
-  >
+    onSubmit={values => postCadastro(values)}>
 
     {({ handleChange, handleBlur, handleSubmit, values }) => (
       <View>
@@ -70,7 +70,7 @@ export default function Cadastro({ navigation }) {
             />
 
             <View style={styles.styleButton}>
-                <TouchableOpacity onPress={() => navigation.navigate('PosCadastro')} style={styles.styleButton}>
+                <TouchableOpacity onPress={handleSubmit} style={styles.styleButton}>
                     <Text style={{ color: '#FFF', fontSize: 16, fontWeight: 'bold' }}>CADASTRAR PONTO</Text>
                 </TouchableOpacity>
             </View>
@@ -80,7 +80,7 @@ export default function Cadastro({ navigation }) {
             <Text style={styles.infoDescription}>
                             Cadastrando um ponto de coleta, qualquer pessoa poderá encontrar o local e levar doações,
                             é importante lembrar que todo cuidado, manutenção e preservação fica de responsabilidade do
-                            criador do ponto.
+                            criador do ponto. Apoie o projeto!
             </Text>
         </View>
         

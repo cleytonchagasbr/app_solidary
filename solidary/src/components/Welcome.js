@@ -42,7 +42,7 @@ export default function Welcome( { navigation } ) {
             </View>
         </View>
 
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Maps')}>
+      <TouchableOpacity style={styles.button} onPress={navigation.navigate('Cadastro')}>
         <Text style={styles.encontrar}>Encontrar local</Text>
       </TouchableOpacity>
 
